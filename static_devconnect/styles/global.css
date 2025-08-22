@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+
+@font-face {
+    font-family: Billabong;
+    src: url(../assets/fonts/Billabong/billabong.ttf),
+        url(../assets/fonts/Billabong/billabong_regular.otf);
+}
+
+:root {
+    --cor-preto: #000000;
+    --cor-verde-escuro: #27302E;
+    --cor-branco: #E2EEEB;
+    --cor-verde-musgo: #4E6048;
+    --cor-verde: #3F9160;
+    --cor-verde-lima: #51B16F;
+    --cor-roxo: #593C98;
+
+    --borda: 1px solid var(--cor-branco);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+/* SELETOR GLOBAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+
+}
+
+body {
+    background-color: var(--cor-branco);
+
+}
+
+h1 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+}
