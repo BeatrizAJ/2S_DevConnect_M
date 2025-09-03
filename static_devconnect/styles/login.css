@@ -1,6 +1,6 @@
 main {
 
-    background-color: rgb(204, 209, 209);
+    background-color: rgb(153, 153, 153);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -9,10 +9,7 @@ main {
 }
 
 main>div {
-    background-color: rgb(196, 196, 196);
-    width: 100%;
-    max-width: 342px;
-    height: 400px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,27 +18,99 @@ main>div {
 }
 
 form {
-    /*background-color: brown;*/
+    display: flex;
+    /*ativa o flex*/
+    flex-direction: column;
+    justify-content: space-between;
+    /*alinha na direção do flex*/
+    align-items: center;
+    gap: 15px;
+    padding: 3%;
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+
+.formulario-botao-roxo {
+    background-color: blue;
+    border-radius: var(--borda-arredondada);
+    height: 35px;
+
+    color: aliceblue;
+    font-size: var(--tamanho-fonte-sm);
+    border: none;
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: aliceblue;
+
+    color: azure;
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
 
 }
 
-#secao-cadastro {
-  /* background-color: burlywood;*/
+.formulario-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+color: blueviolet;
 }
+
+
 
 
 .estilo-formulario {
-    border: var(--borda);
-    background-color: var(--cor-branco);
     width: 100%;
+    max-width: 342px;
+    border: var(--borda);
+}
+
+
+
+
+
+
+form>p {
+    /* text-transform: uppercase; */
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+}
+
+form>a,
+#secao-cadastro>p>a {
+    color: var(--cor-roxo);
+    font-size: var(--tamanho-fonte-sm);
+    text-decoration: none;
+}
+
+#secao-cadastro>p {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-md);
+}
+
+.estilo-formulario {
+    max-width: 342px;
+}
+
+#secao-cadastro {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main>div>p {
-    background-color: rgb(77, 73, 70);
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
 }
 
 #secao-instalacao {
-    background-color: rgb(121, 121, 121);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -49,3 +118,14 @@ main>div>p {
     gap: 10px;
 }
 
+button {
+    height: 35px;
+    width: 290px;
+    background-color: var(--cor-roxo);
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
