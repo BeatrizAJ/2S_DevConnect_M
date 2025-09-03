@@ -1,6 +1,6 @@
 main {
 
-    background-color: aqua;
+    background-color: rgb(204, 209, 209);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -9,7 +9,7 @@ main {
 }
 
 main>div {
-    background-color: blueviolet;
+    background-color: rgb(196, 196, 196);
     width: 100%;
     max-width: 342px;
     height: 400px;
@@ -37,14 +37,15 @@ form {
 }
 
 main>div>p {
-    background-color: chocolate;
+    background-color: rgb(77, 73, 70);
 }
 
 #secao-instalacao {
-    background-color: chartreuse;
+    background-color: rgb(121, 121, 121);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
+
