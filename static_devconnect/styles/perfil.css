@@ -1,0 +1,63 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.foto-perfil-bio {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente ( | ) ao centro */
+    gap: 10px;
+}
+
+.perfil-info {
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    
+}
+
+.formulario-botao-azul {
+background-color: var(--cor-branco);
+color: var(--cor-roxo2);
+    
+}
+.perfil-info>div{
+    background-color: var(--cor-branco);
+    display: flex;
+    gap: 10px;
+    color: var(--cor-preto);
+}
+
+#perfil {
+    background-color: var( --cor-branco);
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
+}
+
+.publi{
+    font-size: var(--tamanho-fonte-md);
+    color: var(--cor-roxo2);
+}

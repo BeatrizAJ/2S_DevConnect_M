@@ -20,6 +20,10 @@
     --cor-cinza-medio: #e5e5e5;
     --cor-cinza-claro: #fafafa;
     --cor-roxo: #593C98;
+    --cor-roxo2: #8A38F5;
+    --cor-roxo3: #A59ABE;
+    --cor-roxo4: #CCC6DC;
+    --cor-verdeclaro: #D2E6D8;
 
     --borda: 1px solid var(--cor-cinza-medio);
     --borda-arredondada: 2px;
@@ -38,6 +42,7 @@
     box-sizing: border-box;
     /*atribui espaços internos/externos e bordas no tamanho final do box*/
     font-family: "Segoe UI", sans-serif;
+    outline-color: var(--cor-roxo2);
 }
 
 body {
@@ -55,12 +60,11 @@ h1 {
 
 /* formulario */
 .formulario-botao-azul {
-    background-color: var(--cor-azul);
+    background-color: var(--cor-roxo);
     border-radius: var(--borda-arredondada);
     border: none;
     /*tira a borda*/
     height: 35px;
-
     color: var(--cor-branco);
     font-size: var(--tamanho-fonte-sm);
 }
@@ -96,10 +100,14 @@ h1 {
     display: inline-block;
     width: 100%;
     max-width: 300px;
-    padding: 10px;
-    background-color: rgba(113, 119, 123, 0.525);
-    color: rgba(80, 80, 207, 0.708);
+    min-height: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: var(--cor-cinza-escuro3);
+    color: var(--cor-cinza-escuro2);
     text-align: center;
+    border-radius: var(--borda-arredondada);
+    font-weight: 500;
 }
 
 
@@ -140,7 +148,7 @@ h1 {
     align-items: center;
 }
 
-#foto-perfil {
+.foto-perfil {
     width: 40px;
     height: 40px;
     object-fit: cover;
@@ -148,9 +156,6 @@ h1 {
     object-position: center;
     border-radius: 50%;
 }
-
-
-
 
 /* RESPONSIVO */
 @media only screen and (max-width: 500px) {
@@ -162,5 +167,4 @@ h1 {
         display: none;
     }
 }
-
 

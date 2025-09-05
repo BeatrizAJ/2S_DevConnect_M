@@ -30,14 +30,14 @@
             </a>
             <div class="cabecalho-acoes">
                 <a href="./feed.html">
-                    <img src="../assets/images/icone-casa-azul.svg" alt="">
+                    <img src="../assets/images/purple home.svg" alt="">
                 </a>
                 <a href="#">
-                    <img src="../assets/images/icone-coracao-azul.svg" alt="">
+                    <img src="../assets/images/purple heart.svg" alt="">
                 </a>
                 <a href="#">
-                    <img id="foto-perfil" src="../assets/images/transferir (5).jpg" alt="">
-
+                    <img class="foto-perfil" src="../assets/images/transferir (5).jpg" alt="">
+                </a>
             </div>
         </nav>
     </header>
@@ -127,35 +127,71 @@
                     </button>
                 </article>
             </section>
+            <section id="criar-publi" class="estilo-formulario">
+                <h2>Publicação</h2>
+
+                <form action="">
+                    <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea>
+                    <!-- Entrada de texto grandes-->
+
+                    <footer>
+                        <div>
+
+                            <label for="campo-upload" id="texto-upload">Faça o upload da imagem aqui...</label>
+                            <input type="file" name="" id="campo-upload">
+
+                        </div>
+
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
+
+                    </footer>
+
+                </form>
+            </section>
+
+
+
+            <!--Inicio secao publicacoes-->
+            <section id="publicacoes">
+
+                <!--Card Publi-->
+                <article class="card-publi">
+                    <header>
+                        <a href="#">
+                            <img class="foto-perfil" src="../assets/images/transferir (5).jpg" alt="">
+                            trixy_cs
+                        </a>
+
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publicacao"  src="../assets/images/IMG_0481.JPG" alt="">
+                        <figcaption>
+                            Beatriz
+                            <p class="descricao-publicacao">Final de semestre da turma moura branco</p>
+                        </figcaption>
+
+                        <div class="interacoes-publicacao">
+                            <button type="button">
+                                <img src="../assets/images/heart.svg" alt="">
+                            </button>
+
+                            <button type="button">
+                                <img src="../assets/images/comment.svg" alt="">
+                            </button>
+
+                            <span>666 curtidas</span>
+                        </div>
+
+                        <button type="button">Ver todos os comentários...</button>
+                    </figure>
+                </article>
+
+            </section>
+            <!--Fim secao publicacoes-->
         </div>
     </main>
     <!--Fim main-->
-    <section id="criar-publi">
-        <h2>Publicação</h2>
-
-        <form action="">
-            <textarea name="" id=""></textarea> <!-- Entrada de texto grandes-->
-
-            <footer>
-
-                <div>
-
-                    <label for="campo-upload" id="texto-upload">Faça o upload da imagem aqui...</label>
-                    <input type="file" name="" id="campo-upload">
-
-                </div>
-
-                <button type="submit" class="formulario-botao-azul">Entrar</button>
-
-                
-            </footer>
-
-
-
-            </div>
-        </form>
-    </section>
-
 </body>
 
 </html>
